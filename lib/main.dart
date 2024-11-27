@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(fontFamily: 'Spotify Mix'),
-      home: Signup(),
+      home: Login(),
       routes: {
         '/login': (context) => Login(),
         '/signup': (context) => Signup(),
