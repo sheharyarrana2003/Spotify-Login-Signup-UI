@@ -9,8 +9,7 @@
 
 <br>
 
-![Login Page](assets/login_page.jpg)
-
-<br>
-
-![Signup Page](assets/signup_page.jpg)
+<div style="display: flex; gap: 10px">
+  <img src="assets/login_page.jpg" alt="Login Page" width="300">
+  <img src="assets/signup_page.jpg" alt="Signup Page" width="300">
+</div>
