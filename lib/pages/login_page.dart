@@ -30,7 +30,7 @@ class _LoginPageState extends State<Login> {
               margin: const EdgeInsets.only(top: 50),
               child: Column(
                 children: [
-                  Image.asset('assets/spotify_icon_white.png'),
+                  Image.asset('assets/Images/spotify_icon_white.png'),
                   SizedBox(height: 20),
                   Text(
                     'Log in to Spotify',
@@ -49,9 +49,9 @@ class _LoginPageState extends State<Login> {
 
                         ...List.generate(3, (index) {
                         final List<Map<String, String>> buttonData = [
-                          {'text': 'Sign up with Google', 'icon': 'assets/google_icon.png'},
-                          {'text': 'Sign up with Facebook', 'icon': 'assets/facebook_icon.png'},
-                          {'text': 'Sign up with Apple', 'icon': 'assets/apple_icon.png'},
+                          {'text': 'Sign up with Google', 'icon': 'assets/Images/google_icon.png'},
+                          {'text': 'Sign up with Facebook', 'icon': 'assets/Images/facebook_icon.png'},
+                          {'text': 'Sign up with Apple', 'icon': 'assets/Images/apple_icon.png'},
                         ];
 
                           return Column(
@@ -84,17 +84,17 @@ class _LoginPageState extends State<Login> {
                                       splashFactory: NoSplash.splashFactory,
                                     ),
                                     child: Row(
-                                      mainAxisAlignment: MainAxisAlignment.center,
+                                      mainAxisAlignment: MainAxisAlignment.spaceAround,
                                       children: [
                                         Image.asset(
                                           buttonData[index]['icon']!,
-                                          height: 32,
+                                          height: 25,
                                         ),
-                                        SizedBox(width: 10),
+                                        SizedBox(width: 8),
                                         Text(
                                           buttonData[index]['text']!,
                                           style: TextStyle(
-                                            fontSize: 16,
+                                            fontSize: 14,
                                             color: Colors.white,
                                             fontWeight: FontWeight.w800,
                                           ),

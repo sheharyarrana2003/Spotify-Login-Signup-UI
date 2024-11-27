@@ -10,6 +10,6 @@
 <br>
 
 <div>
-  <img src="assets/signup_page.jpg" alt="Signup Page" width="300">
-  <img src="assets/login_page.jpg" alt="Login Page" width="300">
+  <img src="assets/Images/signup_page.jpg" alt="Signup Page" width="300">
+  <img src="assets/Images/login_page.jpg" alt="Login Page" width="300">
 </div>

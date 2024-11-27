@@ -23,7 +23,7 @@ class _SignupPageState extends State<Signup> {
               margin: const EdgeInsets.only(top: 50),
               child: Column(
                 children: [
-                  Image.asset('assets/spotify_icon_white.png'),
+                  Image.asset('assets/Images/spotify_icon_white.png'),
                   SizedBox(height: 20),
                   Text(
                     'Sign up to \nstart listening',
@@ -129,9 +129,9 @@ class _SignupPageState extends State<Signup> {
 
                               ...List.generate(3, (index) {
                               final List<Map<String, String>> buttonData = [
-                                {'text': 'Sign up with Google', 'icon': 'assets/google_icon.png'},
-                                {'text': 'Sign up with Facebook', 'icon': 'assets/facebook_icon.png'},
-                                {'text': 'Sign up with Apple', 'icon': 'assets/apple_icon.png'},
+                                {'text': 'Sign up with Google', 'icon': 'assets/Images/google_icon.png'},
+                                {'text': 'Sign up with Facebook', 'icon': 'assets/Images/facebook_icon.png'},
+                                {'text': 'Sign up with Apple', 'icon': 'assets/Images/apple_icon.png'},
                               ];
 
                                 return Column(
